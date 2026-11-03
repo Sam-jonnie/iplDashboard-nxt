@@ -1,0 +1,68 @@
+.home-background {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-height: 768px) {
+}
+
+@media screen and (min-height: 768px) {
+  .home-background {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+}
+
+.container-width {
+  width: 90%;
+}
+
+@media screen and (min-height: 768px) {
+  .container-width {
+    width: 85%;
+  }
+}
+
+.ipl-logo-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ipl-image {
+  width: 25px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+@media screen and (min-height: 768px) {
+  .ipl-image {
+    width: 45px;
+    height: 60px;
+    margin-right: 20px;
+  }
+}
+
+.ipl-heading {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #ffffff;
+}
+
+@media screen and (min-height: 768px) {
+  .ipl-heading {
+    font-size: 45px;
+  }
+}
+
+.ul-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0px;
+}

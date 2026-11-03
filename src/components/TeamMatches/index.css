@@ -1,0 +1,135 @@
+.teammatch-container {
+  background-image: linear-gradient(to bottom, #d91c1f, #a4261d, #13418b);
+  min-height: 100vh;
+  padding: 15px;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+.competing-logo {
+  width: 45%;
+}
+
+.competing-team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  border: none;
+  border-radius: 12px;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.result-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .result-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+.result-card-align {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .result-card-align {
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.latest-match-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.team-match-heading {
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.team-match-date {
+  font-size: 27px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.team-match-venue {
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.team-match-result {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.result-card-display {
+  align-items: flex-start;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .result-card-display {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 50%;
+  }
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  border: none;
+  background-color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .line {
+    width: 0px;
+    height: 0px;
+    border: none;
+    background-color: #475569;
+  }
+}
+
+.latest_match_details-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.latest_match_details-subheading {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.match-card-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px;
+  width: 100%;
+}

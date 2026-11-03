@@ -1,0 +1,43 @@
+.match-card-container {
+  background-color: #0f172a;
+  border: none;
+  border-radius: 13px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 32%;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.matchcard-logo {
+  width: 100px;
+  height: 110px;
+}
+
+.matchcard-competing-team {
+  font-size: 34px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.matchcard-result {
+  font-size: 21px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.matchcard-status {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #e31a1a;
+}
+
+.won {
+  color: #18ed66;
+}
