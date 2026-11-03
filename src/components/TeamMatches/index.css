@@ -133,3 +133,53 @@
   padding: 0px;
   width: 100%;
 }
+
+.back-button {
+  background-color: #ffffff;
+  color: #13418b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 22px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.back-button:hover {
+  background-color: #e2e8f0;
+}
+
+@media screen and (min-width: 768px) {
+  .back-button {
+    font-size: 18px;
+    padding: 10px 28px;
+  }
+}
+
+.pie-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e293b;
+  border-radius: 12px;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 15px;
+  width: 100%;
+}
+
+.pie-chart-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .pie-chart-heading {
+    font-size: 30px;
+  }
+}

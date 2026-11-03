@@ -1,4 +1,4 @@
-import {Route} from 'react-router-dom'
+import {Switch, Route} from 'react-router-dom'
 
 import './App.css'
 import Home from './components/Home'
@@ -7,11 +7,11 @@ import NotFound from './components/NotFound'
 
 const App = () => (
   <>
-    <switch>
+    <Switch>
       <Route exact path="/" component={Home} />
       <Route path="/team-matches/:id" component={TeamMatches} />
       <Route component={NotFound} />
-    </switch>
+    </Switch>
   </>
 )
 
